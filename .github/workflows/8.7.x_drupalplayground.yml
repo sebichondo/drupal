@@ -19,7 +19,7 @@
         - name: Setup PHP
           uses: shivammathur/setup-php@v2
           with:
-            php-version: '7.3'
+            php-version: '7.4'
             
         - name: Check if composer.json exists
           id: check_files
@@ -56,5 +56,5 @@
           with:
             app-name: 'drupalplayground'
             slot-name: 'production'
-            publish-profile: ${{ secrets.AzureAppService_PublishProfile_daa03f6020864eed972ced494aa44c97 }}
+            publish-profile: ${{ secrets.AzureAppService_PublishProfile_ed447075b1fb4031b4e58ac19bf2eed8 }}
             package: .
