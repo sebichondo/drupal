@@ -56,5 +56,5 @@
           with:
             app-name: 'drupaltestingground'
             slot-name: 'production'
-            publish-profile: ${{ secrets.AzureAppService_PublishProfile_bacaf682d911464fae71f14b2e48a388 }}
+            publish-profile: ${{ secrets.AzureAppService_PublishProfile_88a6e9d4c8274520a4082b7cc9496b15 }}
             package: .
